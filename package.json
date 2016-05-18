@@ -1,0 +1,18 @@
+{
+  "name": "perspective_projection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js -t babelify"
+  },
+  "keywords": [],
+  "author": "Tadashi Yamazaki <tadashi.y1012@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  }
+}
